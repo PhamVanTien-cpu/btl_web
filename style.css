@@ -1,0 +1,147 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: grey;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .0);
+    padding-left: calc(var(--bs-gutter-x) * .0);
+    margin-top: var(--bs-gutter-y);
+}
+/* css */
+.menu {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    height: 33px;
+    margin: 0 5rem;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+.menu:hover {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, .5), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, .5), rgba(255, 255, 255, 0));
+}
+
+.menu .menu-nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu .menu-nav .nav-link a {
+    padding: .7rem 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    color: #333;
+}
+
+.menu .menu-nav .nav-link a:hover {
+    color: #f99d1c;
+}
+
+.menu-lang {
+    z-index: 1;
+    position: fixed;
+    top: 7.5px;
+    left: 0;
+    right: 7.5px;
+    display: flex;
+    height: 33px;
+    justify-content: flex-end;
+}
+
+.menu-lang .lang-item {
+    margin-right: .25rem;
+    margin-left: .25rem;
+    width: 20px;
+    height: 20px;
+}
+
+.sub-menu {
+    display: none;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 33px;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, .5), white, #d2d2d2, #d2d2d2, white, rgba(255, 255, 255, .5));
+    height: 40px;
+}
+
+.nav-link:hover .sub-menu {
+    display: flex;
+}
+
+.sub-menu a {
+    font-weight: 200 !important;
+    color: #333;
+    text-transform: none !important;
+    margin: 0rem 3rem;
+}
+
+.sub-menu a:hover {
+    color: #333 !important;
+}
+
+
+.a{
+    display: flex;
+    margin: 0 0 0 15%;
+    border: red;
+}
+
+.b{
+    float: right;
+    width: 18%;
+    padding: .15% .15%;
+    text-align: center;
+    border: red;
+}

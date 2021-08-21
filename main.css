@@ -1,0 +1,161 @@
+
+.about_frame{
+    padding: 0 0;
+    margin: 0 0;
+}
+
+.boder{
+    border: 2px solid rgb(245, 241, 241);
+    border-radius: 1%;
+}
+
+.boder:hover{
+    border-color: #FA9D1C;
+}
+.text-center{
+    text-align: center;
+}
+.padding{
+    padding: 0% 0%;
+}
+.margin{
+    margin: 2% 2% 5% 5%;
+
+}
+.margin1{
+    margin: 5% 0%;
+}
+.padding1{
+    padding: 2% 2% 2% 2%;
+}
+
+.candoan{
+    width: 15%;
+    float: left;
+    background-color: #FA9D1C;
+    padding: 1%;
+}
+.canle{
+    width: 75%;
+    float: left;
+    padding: 1% 0% 1% 5%;
+    color: #FA9D1C;
+}
+.text{
+    padding: 0 0 30% 0;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding-top: 10px;
+    color: #666666;
+}
+
+.color-warning{
+    color: #FA9D1C;
+}
+
+/* .img-thumbnail{
+    padding: 0%;   
+    height: 100% ;
+    border: none;
+    border-radius: 0px !important;
+     background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0px; 
+}
+*/
+/* .w{
+    background-image: url(../images/232ocuRNiihu8Puab.jpg);
+}  */
+
+.im{
+    overflow: hidden;
+    width: 100%;
+    height: 12vw;
+    margin-bottom: 0px;
+    background-position: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.padding_a{
+    padding: 1% 2%;
+    color: #666666;
+    background-color: white;
+    border-radius: 5px;
+    border: .5px solid #9e9d9d;
+    text-decoration: none
+}
+
+.padding_a:hover{
+    background-color: #f0a93f;
+}
+
+
+/* chia 5 phan  */
+
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5 
+.col-xl-5{
+    position: relative;
+    min-height: 1px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* .col-xs-5 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 576px) {
+.col-sm-5 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 768px) {
+    .col-md-5 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-lg-5 {
+        width: 20%;
+        float: left;
+    }
+} */
+@media (min-width: 1200px) {
+    .col-xl-5 {
+        width: 20%;
+        float: left;
+    }
+}
+
+.ngoai{
+    padding: 0 0 !important;
+}
+
+
+.boder_s{
+    text-align: center;
+    height: 275px;
+    width: 304px;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 0 0 !important;
+}
+
+.ab{
+    width: 100%;
+    height: auto;
+}
